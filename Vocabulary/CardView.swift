@@ -10,7 +10,13 @@ import SwiftUI
 struct CardView: View {
     let voca: Vocabulary
     var body: some View {
-        Text("Hello, World!")
+        VStack(alignment: .leading, content: {
+            Text(voca.name)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .font(.headline)
+        })
+        .padding()
+        .foregroundStyle(voca.theme.accentColor)
     }
 }
 
