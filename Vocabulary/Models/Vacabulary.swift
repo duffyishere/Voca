@@ -8,9 +8,17 @@
 import Foundation
 
 struct Vocabulary {
+    let id: UUID
     var name: String
     var numberOfWord: Int
     var theme: Theme
+    
+    init(id: UUID = UUID(), name: String, numberOfWord: Int, theme: Theme) {
+        self.id = id
+        self.name = name
+        self.numberOfWord = numberOfWord
+        self.theme = theme
+    }
 }
 
 extension Vocabulary {
