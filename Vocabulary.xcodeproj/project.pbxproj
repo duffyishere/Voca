@@ -15,6 +15,7 @@
 		6006E0EA2B6532EF009DE6BB /* Vacabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6006E0E92B6532EF009DE6BB /* Vacabulary.swift */; };
 		6006E0EC2B653368009DE6BB /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6006E0EB2B653368009DE6BB /* Word.swift */; };
 		6006E0EE2B6535F7009DE6BB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6006E0ED2B6535F7009DE6BB /* CardView.swift */; };
+		6006E0F22B727290009DE6BB /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6006E0F12B727290009DE6BB /* TrailingIconLabelStyle.swift */; };
 		965F55FD2B6E43FB00227BAF /* VocabulariesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965F55FC2B6E43FB00227BAF /* VocabulariesView.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		6006E0E92B6532EF009DE6BB /* Vacabulary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vacabulary.swift; sourceTree = "<group>"; };
 		6006E0EB2B653368009DE6BB /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 		6006E0ED2B6535F7009DE6BB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		6006E0F12B727290009DE6BB /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		965F55FC2B6E43FB00227BAF /* VocabulariesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabulariesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +88,7 @@
 				6006E0E72B6532BC009DE6BB /* Theme.swift */,
 				6006E0E92B6532EF009DE6BB /* Vacabulary.swift */,
 				6006E0EB2B653368009DE6BB /* Word.swift */,
+				6006E0F12B727290009DE6BB /* TrailingIconLabelStyle.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				965F55FD2B6E43FB00227BAF /* VocabulariesView.swift in Sources */,
 				6006E0E82B6532BC009DE6BB /* Theme.swift in Sources */,
 				6006E0DA2B6530FA009DE6BB /* ContentView.swift in Sources */,
+				6006E0F22B727290009DE6BB /* TrailingIconLabelStyle.swift in Sources */,
 				6006E0D82B6530FA009DE6BB /* VocabularyApp.swift in Sources */,
 				6006E0EA2B6532EF009DE6BB /* Vacabulary.swift in Sources */,
 				6006E0EE2B6535F7009DE6BB /* CardView.swift in Sources */,

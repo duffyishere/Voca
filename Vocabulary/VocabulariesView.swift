@@ -11,9 +11,20 @@ import SwiftUI
 struct VocabulariesView: View {
     let vocabularies: [Vocabulary]
     var body: some View {
-        List(vocabularies, id: \.name) { vocabulary in
-            CardView(vocabulary: vocabulary)
+        NavigationStack {
+            List(vocabularies, id: \.name) { vocabulary in
+                NavigationLink(destination: Text(vocabulary.name)) {
+                    CardView(vocabulary: vocabulary)
+                }
                 .listRowBackground(vocabulary.theme.mainColor)
+            }
+            .navigationTitle("My Lists")
+            .toolbar {
+                Button(action: {}) {
+                        Image(systemName: "plus")
+                }
+                .accessibilityLabel("New Vocabularies")
+            }
         }
     }
 }
