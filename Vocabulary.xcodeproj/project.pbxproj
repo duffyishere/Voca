@@ -63,13 +63,11 @@
 		6006E0D62B6530FA009DE6BB /* Vocabulary */ = {
 			isa = PBXGroup;
 			children = (
+				6006E0F52B727AD8009DE6BB /* View */,
 				6006E0E62B6532A9009DE6BB /* Models */,
 				6006E0DD2B6530FB009DE6BB /* Preview Content */,
 				6006E0D72B6530FA009DE6BB /* VocabularyApp.swift */,
-				6006E0D92B6530FA009DE6BB /* ContentView.swift */,
 				6006E0DB2B6530FB009DE6BB /* Assets.xcassets */,
-				6006E0ED2B6535F7009DE6BB /* CardView.swift */,
-				965F55FC2B6E43FB00227BAF /* VocabulariesView.swift */,
 			);
 			path = Vocabulary;
 			sourceTree = "<group>";
@@ -91,6 +89,16 @@
 				6006E0F12B727290009DE6BB /* TrailingIconLabelStyle.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		6006E0F52B727AD8009DE6BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6006E0D92B6530FA009DE6BB /* ContentView.swift */,
+				6006E0ED2B6535F7009DE6BB /* CardView.swift */,
+				965F55FC2B6E43FB00227BAF /* VocabulariesView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
